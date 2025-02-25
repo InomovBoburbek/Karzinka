@@ -1,4 +1,4 @@
-class Employee:
+class Xodim:
     def __init__(self, name, position, description):
         self.name = name
         self.position = position
@@ -9,8 +9,8 @@ class Employee:
 
 print("Boshqaruv Hodimlari:\n")
 management_employees = [
-    Employee("Do‘kon boshlig‘i", "Boshqaruv", "Ish jarayonini boshqaradi."),
-    Employee("Buxgalter", "Boshqaruv", "Hisob-kitob ishlari bilan shug‘ullanadi."),
+    Xodim("Do‘kon boshlig‘i", "Boshqaruv", "Ish jarayonini boshqaradi."),
+    Xodim("Buxgalter", "Boshqaruv", "Hisob-kitob ishlari bilan shug‘ullanadi."),
 ]
 
 for emp in management_employees:
@@ -18,10 +18,10 @@ for emp in management_employees:
 
 print("\n🛒 Savdo va xizmat ko‘rsatish xodimlari:\n")
 sales_employees = [
-    Employee("Sotuvchi", "Savdo", "Mijozlarga mahsulotlar bo‘yicha yordam beradi."),
-    Employee("Kassir", "Savdo", "Kassa operatsiyalarini amalga oshiradi."),
-    Employee("Omborchi", "Savdo", "Mahsulotlarni qabul qilish va saqlashni nazorat qiladi."),
-    Employee("Tozalash xodimi", "Savdo", "Gigiyena va tozalikni ta’minlaydi."),
+    Xodim("Sotuvchi", "Savdo", "Mijozlarga mahsulotlar bo‘yicha yordam beradi."),
+    Xodim("Kassir", "Savdo", "Kassa operatsiyalarini amalga oshiradi."),
+    Xodim("Omborchi", "Savdo", "Mahsulotlarni qabul qilish va saqlashni nazorat qiladi."),
+    Xodim("Tozalash xodimi", "Savdo", "Gigiyena va tozalikni ta’minlaydi."),
 ]
 
 for emp in sales_employees:
@@ -29,8 +29,8 @@ for emp in sales_employees:
 
 print("\nYetkazib berish va yuklash xodimlari:\n")
 logistics_employees = [
-    Employee("Yuklovchi", "Yetkazib berish", "Tovarlarni joylashtiradi."),
-    Employee("Haydovchi", "Yetkazib berish", "Yetkazib berish xizmatini amalga oshiradi."),
+    Xodim("Yuklovchi", "Yetkazib berish", "Tovarlarni joylashtiradi."),
+    Xodim("Haydovchi", "Yetkazib berish", "Yetkazib berish xizmatini amalga oshiradi."),
 ]
 
 for emp in logistics_employees:
